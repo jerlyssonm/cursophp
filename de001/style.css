@@ -15,6 +15,9 @@ main{
     border-radius: 10px;
     margin: auto;
 }
+main > strong {
+    color: black;
+}
 form {
     width: 300px;
     background-color: aquamarine;
@@ -34,14 +37,28 @@ form > label {
     color: black;
     font-weight: bold;
 }
-form > input{
+form > input, p{
     padding:  5px;
     border-radius: 5px;
     margin-bottom: 5px;
     border: none;
 }
-form > input[type="submit"]{
+ p, form > input[type="submit"]{
     text-align: center;
     cursor: pointer;
     font-weight: bold;
+}
+form > input[type="submit"]:hover{
+    color: rgb(92, 10, 10);
+    background-color: rgb(124, 234, 253);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.377);
+
+}
+p{
+    margin: 10px auto;
+    background-color: aqua;
+    width: 90px;
+}
+p > a{
+    text-decoration: none;
 }

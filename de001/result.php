@@ -13,10 +13,10 @@
             $result = $_GET["entrada"];
             $ant = $result - 1;
             $suc = $result + 1;
-            echo "O numero escolhido foi: $result\n";
-            echo "O seu antecessor é $ant \n";
-            echo "O seu sucessor é $suc"
-        ?>
+            echo "O numero escolhido foi: <strong>$result </strong>";
+         ?> <br>
+        <?php echo "O seu antecessor é: <strong>$ant </strong> "?> <br>
+        <?php echo "O seu sucessor é: <strong>$suc </strong>"?>
         <p>
             <a href="javascript:history.go(-1)">Voltar</a>
         </p>
