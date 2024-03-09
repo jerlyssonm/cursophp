@@ -16,7 +16,8 @@ main{
     margin: auto;
 }
 main > strong {
-    color: black;
+    color: rgb(22, 1, 1);
+    font-size: 20px;
 }
 form {
     width: 300px;
