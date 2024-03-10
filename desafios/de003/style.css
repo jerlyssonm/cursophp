@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+html, body {
+    background-color: beige;
+    height: 100vh;
+}
+main {
+    width: 400px;
+    margin: 50px auto;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 17px;
+}
+form > input{
+    width: 98%;
+}
+p#btn{
+    margin: auto;
+    width: 100px;
+}
