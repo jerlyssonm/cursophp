@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+html,body {
+    height: 100vh;
+    background-image:linear-gradient(to top, rgba(85, 1, 1, 0.377), rgb(97, 1, 1));
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    background-color: aqua;
+    width: 550px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+button{
+    display: block;
+    margin: 20px auto 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+button:hover{
+    background-color: aqua;
+    border: 2px solid #fff;
+    box-shadow: 1px 1px 2px black;
+}
