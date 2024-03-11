@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+html, body{
+    height: 100vh;
+    background-image: linear-gradient(to top, green, darkgreen);
+}
+main{
+    width: 350px;
+    background-image: linear-gradient(to bottom, darkgreen, green);
+    margin: 20px auto;
+    padding: 15px;    
+}
+
+p{
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input {
+    margin: 5px;
+    padding: 5px;
+}
+input[type="submit"]{
+    border-radius: 5px;
+    border: 1px solid green;
+    font-weight: bold;
+}
+input[type="submit"]:hover{
+    background-color: green;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+strong{
+    color: rgb(221, 201, 201);
+}
