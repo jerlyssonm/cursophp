@@ -9,7 +9,7 @@
 <body>
     <?php    
         $salBase = 1412;
-        $sal = $_GET["salario"] ?? 0;
+        $sal = $_GET["salario"] ?? $salBase;
 
         $salarios = intdiv($sal, $salBase);
         $resto = number_format($sal % $salBase,2,",",".");
