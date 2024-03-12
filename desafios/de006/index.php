@@ -11,16 +11,16 @@
         <h1>Divisão</h1>
         <form action="<?=$_SERVER["PHP_SELF"]?>" method="get">
             <label for="v1">Dividendo</label>
-            <input type="number" name="v1" id="v1">
+            <input type="number" name="v1" id="v1" value="0">
             <label for="v2">Divisor</label>
-            <input type="number" name="v2" id="v2">
+            <input type="number" name="v2" id="v2" min="1" value="1">
             <input type="submit" value="Calcular">
         </form>
     </main>
     <section>
         <?php 
             $dividendo = $_GET["v1"] ?? 0;
-            $divisor = $_GET["v2"] ?? 0;
+            $divisor = $_GET["v2"] ?? 1;
 
             $resultado = intdiv($dividendo, $divisor);
             $resto = $dividendo % $divisor;
